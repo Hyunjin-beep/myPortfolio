@@ -50,19 +50,17 @@ header .nav-wrapper a {
 .main-skills,
 .main-profile {
   margin-top: 40px;
-  border: 3px solid gold;
+
   height: 120vh;
 }
 
 .main-projects {
   margin-top: 40px;
-  border: 3px solid gold;
 }
 
 .main-contact {
   margin-top: 40px;
-  height: 40vh;
-  border: 3px solid gold;
+  height: 70vh;
 }
 
 /* main-contents */
@@ -80,8 +78,7 @@ header .nav-wrapper a {
   justify-content: space-between;
   align-items: baseline;
 
-  height: 120vh;
-  border: 3px solid red;
+  height: 80vh;
 }
 
 .title {
@@ -90,9 +87,6 @@ header .nav-wrapper a {
   transform: translateY(80px);
   color: #bfcadd;
   -webkit-text-stroke: 4px black;
-}
-
-.title h2 {
 }
 
 .title-back-box {
@@ -165,7 +159,7 @@ header .nav-wrapper a {
 
 /* main-projects */
 .main-proejcts-items-wrapper {
-  margin: 0px 20px 20px 20px;
+  margin: 0px 20px 100px 20px;
 }
 
 .left,
@@ -227,4 +221,65 @@ header .nav-wrapper a {
   align-items: center;
 
   font-size: 25px;
+}
+
+/* main-contact */
+.main-contact-items-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 40px;
+}
+
+.main-contact-items {
+  list-style: none;
+}
+
+.main-contact-item {
+  line-height: 70px;
+  font-size: 23px;
+}
+
+.main-contact-item i {
+  font-size: 40px;
+  padding-right: 20px;
+  vertical-align: middle;
+}
+
+.main-contact-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.main-contact-item a:hover {
+  text-decoration: underline;
+}
+
+.linkedin {
+  color: #0270ad;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #bfcadd;
+  color: #4e4e4e;
+
+  height: 10vh;
+
+  font-size: 17px;
+}
+
+footer a {
+  color: #4e4e4e;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
