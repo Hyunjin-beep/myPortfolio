@@ -9,6 +9,8 @@
       crossorigin="anonymous"
     ></script>
     <title>Hyunjin Cho's Portfolio</title>
+    <link rel="stylesheet" href="style/style.css " />
+    <script src="src/main.js" defer></script>
   </head>
   <body>
     <!-- nav-menu -->
@@ -16,10 +18,10 @@
       <div class="nav-wrapper">
         <div class="myPage"><a href="#">Hyunjin Cho</a></div>
         <div class="page-menu">
-          <a href="#">About</a>
-          <a href="#">Skills</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a class="page-menu-item about" data-link="about">About</a>
+          <a class="page-menu-item skills" data-link="skills">Skills</a>
+          <a class="page-menu-item projects" data-link="project">Projects</a>
+          <a class="page-menu-item contact" data-link="contact">Contact</a>
         </div>
       </div>
     </header>
@@ -28,7 +30,7 @@
     <section class="main-contents">
       <div class="main-contents-wrapper">
         <!-- profile -->
-        <div class="main-profile">
+        <div class="main-profile" id="about">
           <div class="main-title">
             <h2 class="title">Profile</h2>
             <div class="title-back-box"></div>
@@ -48,7 +50,7 @@
         </div>
 
         <!-- skills -->
-        <div class="main-skills">
+        <div class="main-skills" id="skills">
           <div class="main-title">
             <h2 class="title">Skills</h2>
             <div class="title-back-box"></div>
@@ -81,7 +83,7 @@
         </div>
 
         <!-- projects -->
-        <div class="main-projects">
+        <div class="main-projects" id="project">
           <div class="main-title">
             <h2 class="title">Projects</h2>
             <div class="title-back-box"></div>
@@ -165,7 +167,7 @@
         </div>
 
         <!-- contact -->
-        <div class="main-contact">
+        <div class="main-contact" id="contact">
           <div class="main-title-title">
             <h2 class="title">Contact</h2>
             <div class="title-back-box"></div>

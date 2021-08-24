@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+header {
+}
+
+header .nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+
+  position: fixed;
+  height: 75px;
+
+  width: 100%;
+  background-color: #bfcadd;
+}
+
+header .nav-wrapper a {
+  font-weight: bold;
+  color: #4e4e4e;
+  /* 4E4E4E */
+}
+
+header .myPage a {
+  color: black;
+}
+
+header .nav-wrapper a {
+  font-size: 24px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* main-contents */
+.main-contents {
+  padding-top: 150px;
+  padding: 150px 150px 0px 150px;
+}
+
+/* main-contents-wrapper */
+.main-contents-wrapper {
+}
