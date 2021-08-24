@@ -8,9 +8,6 @@ body {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-header {
-}
-
 header .nav-wrapper {
   display: flex;
   flex-direction: row;
@@ -20,7 +17,6 @@ header .nav-wrapper {
 
   position: fixed;
   height: 75px;
-
   width: 100%;
   background-color: #bfcadd;
 
@@ -47,6 +43,10 @@ header .nav-wrapper a {
   margin-right: 15px;
 }
 
+header .nav-wrapper a:hover {
+  color: black;
+}
+
 .main-skills,
 .main-profile {
   margin-top: 40px;
@@ -66,10 +66,6 @@ header .nav-wrapper a {
 /* main-contents */
 .main-contents {
   padding: 150px 150px 0px 150px;
-}
-
-/* main-contents-wrapper */
-.main-contents-wrapper {
 }
 
 /* main-profile */
@@ -258,6 +254,10 @@ header .nav-wrapper a {
 
 .linkedin {
   color: #0270ad;
+}
+
+.mail {
+  color: #0175d1;
 }
 
 /*footer*/
