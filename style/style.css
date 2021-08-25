@@ -162,7 +162,17 @@ header .nav-wrapper a:hover {
 .right {
   margin-right: 20px;
 }
+/* 
+.left {
+  width: 600px;
+  height: 360px;
+} */
 
+.ex {
+  width: 640px;
+  height: 360px;
+  position: relative;
+}
 .main-projects-item img {
   border: 2px solid black;
 }
@@ -174,7 +184,7 @@ header .nav-wrapper a:hover {
   align-items: center;
 
   position: relative;
-  margin-top: 170px;
+  margin-top: 200px;
 }
 
 .main-projects-item:not(:first-child)::before {
@@ -198,7 +208,8 @@ header .nav-wrapper a:hover {
   flex-direction: column;
 }
 
-.project-details p {
+.project-details p,
+.project-languages span {
   font-size: 20px;
 }
 
@@ -281,5 +292,45 @@ footer a {
 }
 
 footer a:hover {
+  text-decoration: underline;
+}
+
+.project-item-desc {
+  width: 101%;
+  height: 101%;
+  background-color: black;
+  opacity: 0;
+
+  position: absolute;
+  top: 0px;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 300ms;
+}
+
+.left:hover .project-item-desc {
+  opacity: 0.8;
+  transform: translateY(0px);
+}
+
+.btnForLink {
+  border: transparent;
+  outline: transparent;
+  background-color: transparent;
+}
+
+.btnForLink a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.btnForLink a:hover {
   text-decoration: underline;
 }
