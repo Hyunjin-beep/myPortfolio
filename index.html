@@ -12,6 +12,18 @@
     <link rel="stylesheet" href="style/style.css " />
     <script src="src/main.js" defer></script>
   </head>
+  <style>
+    .project-item-desc {
+      width: 640px;
+      height: 360px;
+      background-color: black;
+      opacity: 0;
+    }
+
+    .left:hover .project-item-desc {
+      opacity: 0.8;
+    }
+  </style>
   <body>
     <!-- nav-menu -->
     <header>
@@ -32,8 +44,8 @@
         <!-- profile -->
         <div class="main-profile" id="about">
           <div class="main-title">
-            <h2 class="title">PROFILE</h2>
-            <div class="title-back-box"></div>
+            <h2 class="title">ABOUT ME</h2>
+            <div class="title-back-box" style="width: 400px"></div>
             <div class="main-profile-details-img">
               <img src="img/projects/profile.jpg" alt="" />
             </div>
@@ -190,7 +202,12 @@
                     src="img/projects/mega.png"
                     alt=""
                     class="main-projects-item-img"
-                /></a>
+                  />
+                  <div class="project-item-desc">
+                    <button><a href="#">Live Demo</a></button>
+                    <button><a href="#">GitHub Code</a></button>
+                  </div>
+                </a>
               </div>
               <div class="right">
                 <div class="project-details">
