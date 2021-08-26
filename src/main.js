@@ -1,4 +1,6 @@
 const navMenuItems = document.querySelectorAll(".page-menu-item");
+const toggleBtn = document.querySelector(".navbar__toggleBtn");
+const menu = document.querySelector(".page-menu");
 
 // scroll to the content
 navMenuItems.forEach((menuItem) => {
@@ -7,4 +9,8 @@ navMenuItems.forEach((menuItem) => {
     const el = document.getElementById(`${menuItemName}`);
     el.scrollIntoView({ behavior: "smooth" });
   });
+});
+
+toggleBtn.addEventListener("click", () => {
+  menu.classList.toggle("active");
 });
