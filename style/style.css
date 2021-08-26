@@ -369,6 +369,7 @@ footer a:hover {
   }
 
   .nav-bar {
+    margin: 0;
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
@@ -379,6 +380,7 @@ footer a:hover {
   .myPage {
     text-align: center;
     flex-direction: column;
+    align-self: center;
     width: 100%;
   }
 
@@ -420,16 +422,19 @@ footer a:hover {
     width: 80%;
   }
 
-  /* main-profile */
-  .main-profile {
-    width: 100%;
-  }
   .title {
     font-size: 70px;
   }
 
+  /* main-profile */
+  .main-profile {
+    width: 100%;
+    border: 3px solid violet;
+  }
+
   .main-profile-details {
-    height: 90vh;
+    width: 100%;
+    height: 100vh;
   }
 
   .main-profile-details-moreInfo {
@@ -439,6 +444,7 @@ footer a:hover {
 
   /* skills */
   .main-skills {
+    border: 3px solid violet;
     width: 100%;
     height: 100%;
   }
