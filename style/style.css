@@ -473,6 +473,11 @@ footer a:hover {
     flex-direction: column;
   }
 
+  .project-details {
+    margin-left: 0px;
+    transform: translate(-20px, 40px);
+  }
+
   .main-projects-item img {
     width: 50%;
     height: 100%;
