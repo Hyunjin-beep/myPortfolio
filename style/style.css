@@ -69,7 +69,7 @@ ul {
 .main-skills,
 .main-profile {
   margin-top: 40px;
-  height: 120vh;
+  height: 100vh;
 }
 
 .main-projects {
@@ -132,15 +132,13 @@ ul {
   text-align: center;
 }
 
-/* main-skills */
-
 .main-skills-items {
   /* display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center; */
   /* flex-wrap: wrap; */
-  margin: 40px 70px 0px 70px;
+  margin: 40px 70px 0px 40px;
 }
 
 .fst {
@@ -160,7 +158,7 @@ ul {
 .main-skills-item {
   display: flex;
   flex-direction: column;
-
+  align-items: baseline;
   align-items: center;
 }
 
@@ -168,8 +166,10 @@ ul {
   font-size: 140px;
 }
 
-.main-skills-item .whatIDone {
-  width: 150px;
+.whatIDone {
+  border: 3px solid black;
+  text-align: center;
+  width: 200px;
   font-size: 20px;
 }
 
@@ -261,13 +261,13 @@ ul {
   margin-left: 40px;
   display: flex;
   flex-direction: row;
-
+  justify-content: space-around;
   align-items: center;
 }
 
 .project-details {
-  padding-top: 50px;
   margin-left: 40px;
+  width: 70%;
 }
 
 .project-details p,
@@ -450,6 +450,7 @@ footer a:hover {
   }
 
   .main-skills-item .whatIDone {
+    border: 3px solid black;
     width: 100%;
     margin-top: 10px;
   }
